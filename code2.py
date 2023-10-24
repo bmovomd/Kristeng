@@ -1,15 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 生成连续信号
+
 t_continuous = np.linspace(0, 10, 1000)
-continuous_signal = np.sin(2 * np.pi * t_continuous)  # 以正弦信号为例
+continuous_signal = np.sin(2 * np.pi * t_continuous)  
 
-# 生成离散信号
+
 t_discrete = np.arange(0, 10, 0.1)
-discrete_signal = np.sin(2 * np.pi * t_discrete)  # 以正弦信号为例
+discrete_signal = np.sin(2 * np.pi * t_discrete)  
 
-# 绘制图形
+
 plt.figure(figsize=(12, 6))
 
 plt.subplot(2, 1, 1)
